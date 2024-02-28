@@ -1,0 +1,40 @@
+{% extends 'catalog/base.html' %}
+{% load my_tags %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <img src="{{ product.image|media_url }}" alt="" style="max-width: 75%;">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$ {{ product.price }}</h1>
+                        <ul class="list-unstyled mt-3 mb-4 text-start m-3">
+                            {% for preview in product.get_preview %}
+                                <li>-{{ preview }}</li>
+                            {% endfor %}
+                        </ul>
+                        <div class="row">
+                            <button type="button" class="btn btn-lg btn-block btn-outline-success w-100">Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse" id="{{ product.name }}">
+                        <div class="card card-body">
+                            {{ product.short_desription }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                {{ product.description }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,100 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Áàçîâàÿ",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïîäïèñêè áàçîâàÿ",
+      "preview_description": "-Ëèöåíçèÿ íà ìåñÿö",
+      "image": "products_images/basic.gif",
+      "category": 1,
+      "price": "30.00",
+      "created_at": "2024-02-26T18:58:06.511Z",
+      "last_modified": "2024-02-27T13:20:09.180Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Ïðåìèàëüíàÿ",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïîäïèñêè ïðåìèóì",
+      "preview_description": "-Íåîãðàíè÷åííàÿ ëèöåíçèÿ",
+      "image": "products_images/premium.gif",
+      "category": 1,
+      "price": "100.00",
+      "created_at": "2024-02-26T20:03:35.679Z",
+      "last_modified": "2024-02-27T13:19:32.073Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Ïåðñîíàëüíàÿ",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïîäïèñêè ïåðñîíàë",
+      "preview_description": "-Íåîãðàíè÷åííàÿ ëèöåíçèÿ\r\n-Ïîääåðæêà",
+      "image": "products_images/personal.gif",
+      "category": 1,
+      "price": "159.00",
+      "created_at": "2024-02-26T20:28:57.048Z",
+      "last_modified": "2024-02-27T13:19:39.918Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Ýëèò",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïîäïèñêè ýëèò",
+      "preview_description": "-Íåîãðàíè÷åííàÿ ëèöåíçèÿ\r\n-Ïîääåðæêà\r\n-Óñòàíîâêà íà ñåðâåð",
+      "image": "products_images/elite.gif",
+      "category": 1,
+      "price": "250.00",
+      "created_at": "2024-02-26T20:31:52.071Z",
+      "last_modified": "2024-02-27T13:18:19.780Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Ýëèò ïëþñ",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïîäïèñêè ýëèò+",
+      "preview_description": "-Íåîãðàíè÷åííàÿ ëèöåíçèÿ\r\n-Ïîääåðæêà\r\n-Óñòàíîâêà íà ñåðâåð\r\n-Ïîëó÷åíèå îáíîâëåíèé",
+      "image": "products_images/super-elite.gif",
+      "category": 1,
+      "price": "300.00",
+      "created_at": "2024-02-26T20:37:28.557Z",
+      "last_modified": "2024-02-27T13:17:25.798Z"
+    }
+  },
+  {
+     "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Python Code",
+      "description": "Çäåñü áóäåò íàõîäèòñÿ îïèñàíèå ïî ïîìîùè ñ python êîäîì",
+      "preview_description": "-web developer (Django, Flask)\r\n-data analysis or data science\r\n-desktop app (Tkinter, PyQt5)\r\n-mobile developer (Kivy)\r\n-game developer (Pygame)",
+      "image": "products_images/python.gif",
+      "category": 2,
+      "price": "99.99",
+      "created_at": "2024-02-26T11:14:03.808Z",
+      "last_modified": "2024-02-27T13:15:01.624Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Ñ#",
+      "description": "Çäåñü áóäåò îïèñàíèå ïîìîùè ïî êîäó Ñ#",
+      "preview_description": "-ASP.Net Core\r\n-GraphQL, gRPC è SignalR Core\r\n-ReactJS\r\n-Docker\r\n-CI/CD è Kubernetes\r\n-RabbitMQ",
+      "image": "products_images/C.gif",
+      "category": 2,
+      "price": "99.99",
+      "created_at": "2024-02-26T11:20:50.620Z",
+      "last_modified": "2024-02-27T13:14:34.279Z"
+    }
+  }
+]
